@@ -5,7 +5,7 @@ import streamlit as st
 # Parameter der Quelle
 U0 = 4.95 # Leerlaufspannung [V]
 Ri = 0.496 # Innenwiderstand [Ohm]
-
+test = "testwert"
 st.title("Ausgangskennlinie einer realen Spannungsquelle")
 
 # Sidebar für Lastwiderstand
@@ -63,3 +63,4 @@ st.write(f"**Leistung P:** {P:.2f} W")
 
 # Plot anzeigen
 st.pyplot(fig)
+
